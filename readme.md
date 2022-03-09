@@ -59,6 +59,8 @@ flowchart LR
 
 ## Suppliers
 * Antenna - ???
+* (8) LNA 1 - 
+  [Mini-Circuits.com](https://www.minicircuits.com/WebStore/dashboard.html?model=ZX60-P33ULN%2B)
 * (16) LNA 2&3 -
   [Amazon.ca - Noeelec Lana Barebones](https://www.amazon.ca/dp/B07XNH6QW6/)
 * (8) Band Pass Filter - ZABP-598-S+ - 410-785 MHz) -
@@ -67,6 +69,6 @@ flowchart LR
 
 ## Resources
 * Antenna - Y42400WB [Datasheet](datasheets/Y42400WB-Spec-Sheet.pdf)
+* LNA 1 - ZX60-P33ULN+ [Datasheet](datasheets/ZX60-P33ULN+.pdf)
 * LNA 2&3 - Noeelec Lana Barebones [Datasheet](datasheets/lana_datasheet_revision_1.pdf)
-
 * Band Pass Filter - ZABP-598-S+ - 410-758 MHz [Datasheet](datasheets/ZABP-598-S+.pdf)
