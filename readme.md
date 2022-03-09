@@ -62,7 +62,7 @@ flowchart LR
 * (16) LNA 2&3 -
   [Amazon.ca - Noeelec Lana Barebones](https://www.amazon.ca/dp/B07XNH6QW6/)
 * (8) Band Pass Filter - ZABP-598-S+ - 410-785 MHz) -
-  [Mini-Circuits.com]((https://www.minicircuits.com/WebStore/dashboard.html?model=ZABP-598-S%2B)
+  [Mini-Circuits.com](https://www.minicircuits.com/WebStore/dashboard.html?model=ZABP-598-S%2B)
 
 
 ## Resources
