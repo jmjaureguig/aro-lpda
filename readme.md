@@ -11,6 +11,9 @@
 
 ## Taskt to coordinate with Ben & Caroline.
 * [ ] Define installation place.
+  + Share pointing with CHIME.
+  + Close to the basement.
+![ARO](pictures/ARO.png)
 
 ## Tasks for Toronto
 * [ ] Identify and order the antennas.
@@ -72,16 +75,76 @@ flowchart LR
   A7([Coax. cable 2])
 ```
 
+* Antenna: Y42400WB
+* Coax. cable 1: ?
+* Bulk-head: ?
+* LNA1: ZX60-P33ULN+ 
+* LPF: ?
+* Bias-T to inject power: ? buy? design (and use it as high-pass filter? 😎
+* HPF: ?
+* Bulk-head: ?
+* Coax. cable 2: ?
+* Container box: ? Bud-Industries, somethin like this?
+  [Amazon](https://www.amazon.ca/dp/B005T7BBM0/)
+* Place it on the base of the antenna, or use the same box for 1st and 2nd
+  stages?
+
+
 ### Second stage
+
+```mermaid
+flowchart LR
+
+  style RF fill:#ffffff,stroke:#000000,stroke-width:4px
+  classDef rf fill:#ffffff,stroke:#000000,stroke-width:2px
+
+  classDef power fill:#ffffff,stroke:#000000,stroke-width:2px,stroke-dasharray: 5 5
+
+  A0 --> A1
+
+  subgraph RF [Box 1]
+    M1([DC-reg])
+    A1 --?--> A2
+    A2 --?--> A3
+    A3 --?--> M0
+    M0 --?--> A4
+    M0 -.DC-unreg.-> M1
+    M1 -.DC-5V.-> A3
+
+  end
+
+  A4 --> A5
+
+
+  A0([Coax. cable 2])
+  A1([Bulk-head 1])
+  A2([Bias-T-1])
+  A3([LNA 2])
+  M0([Bias-T-2])
+  A4([Bulk-head 2])
+  A5([Coax. cable 3])
+```
+* Bulk-head-1: ?
+* Bias-T 1: buy? design (and use it as high-pass filter? 😎
+* LNA-2: Noeelec Lana Barebones.
+* Bias-T 2: buy? design (and use it as high-pass filter? 😎
+* Bulk-head-2: ?
+* Coax. cable 3:
+  + RG-58?
+  + Conduit to protect it?
+  + Anchors?
+
+
 
 ### Coax to basement
 
 ### Basement rack unit
-* 400-800 MHz filter.
-* Bias-T to inject power.
-* Voltaje regulators.
+* 400-800 MHz filter: ZABP-598-S+.
+* Bias-T: ? buy? design (and use it as high-pass filter? 😎
 * Power supply.
-* Third stage amplifiers.
+* Voltaje regulators.
+* Gain equalizer.
+* LNA-3: Noeelec Lana Barebones.
 
 
 
