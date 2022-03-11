@@ -1,4 +1,36 @@
-# ARO LPDA Array
+# ARO LPDA
+
+* 8 log-periodic antennas
+  + Separation 1-m, no pattern specified (1x8, 2x4, 3x3).
+  + Semipermanent for a 6-months deployment.
+* Ground plane.
+* 8 RF-chains.
+* Recording machine.
+* Network gateway computer.
+
+
+## Taskt to coordinate with Ben & Caroline.
+* [ ] Define installation place.
+
+## Tasks for Toronto
+* [ ] Identify and order the antennas.
+  + Order placed, waiting for them to arrive.
+* [ ] Identify and order the analog chain component or maybe the cables.
+  + In progress.
+* [ ] Identify and order the computers.
+* [ ] Recording computer with big memory (I have the old moose in my office, can we borrow some of the parts of it, need to spec it out).
+* [ ] Network gateway computer (boris, we have the plan to buy it).
+* [ ] Testing the antenna and analog chain.
+* [ ] Install the computer os and software and test it out (Not sure how to test it without an iceboard (maybe lwlab has one)).
+* [ ] Depending on the antenna mounting plan, we may need to build the mounting base.
+
+## Tasks for ARO
+* [ ] Shipping equipment to ARO?
+* [ ] Install the antennas mounting to a solid base (Need to think about the snow environment) ** We will have to get a precise measurement of antenna locations and layout.
+* [ ] Connect the cables between the analog chain and FPGA
+* [ ] Integration test.
+* [ ] Record crab pulses.
+* [ ] Calibration of beamforming?
 
 ## RF chain
 
@@ -38,10 +70,6 @@ flowchart LR
   M0([Bias-T])
   A6([Bulk-head 2])
   A7([Coax. cable 2])
-
-
-
-
 ```
 
 ### Second stage
