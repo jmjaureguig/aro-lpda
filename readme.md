@@ -152,10 +152,13 @@ flowchart LR
 * Antenna - ???
 * (8) LNA 1 - 
   [Mini-Circuits.com](https://www.minicircuits.com/WebStore/dashboard.html?model=ZX60-P33ULN%2B)
-* (16) LNA 2&3 -
-  [Amazon.ca - Noeelec Lana Barebones](https://www.amazon.ca/dp/B07XNH6QW6/)
 * (8) Band Pass Filter - ZABP-598-S+ - 410-785 MHz) -
   [Mini-Circuits.com](https://www.minicircuits.com/WebStore/dashboard.html?model=ZABP-598-S%2B)
+* (8) Low-pass filters - VLF-800+ -
+  [Mini-Circuits.com](https://www.minicircuits.com/WebStore/dashboard.html?model=VLF-800%2B)
+* (16) LNA 2&3 -
+  [Amazon.ca - Noeelec Lana Barebones](https://www.amazon.ca/dp/B07XNH6QW6/)
+* 32 SMA bulkheads - [Amazon.ca](https://www.amazon.ca//dp/B07WFLD2MX/)
 
 
 ## Resources
@@ -163,3 +166,4 @@ flowchart LR
 * LNA 1 - ZX60-P33ULN+ [Datasheet](datasheets/ZX60-P33ULN+.pdf)
 * LNA 2&3 - Noeelec Lana Barebones [Datasheet](datasheets/lana_datasheet_revision_1.pdf)
 * Band Pass Filter - ZABP-598-S+ - 410-758 MHz [Datasheet](datasheets/ZABP-598-S+.pdf)
+* Low-pass filter - VLF-800+ [Datasheet](datasheets/VLF-800+.pdf)
