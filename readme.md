@@ -15,6 +15,7 @@
   + Close to the basement.
 ![ARO](pictures/ARO.png)
 
+
 ## Tasks for Toronto
 * [ ] Identify and order the antennas.
   + Order placed, waiting for them to arrive.
@@ -163,6 +164,7 @@ flowchart LR
 
 ## Resources
 * Antenna - Y42400WB [Datasheet](datasheets/Y42400WB-Spec-Sheet.pdf)
+  + 37-cm height ![Antenna](pictures/lp-antenna-37cm.jpg)
 * LNA 1 - ZX60-P33ULN+ [Datasheet](datasheets/ZX60-P33ULN+.pdf)
 * LNA 2&3 - Noeelec Lana Barebones [Datasheet](datasheets/lana_datasheet_revision_1.pdf)
 * Band Pass Filter - ZABP-598-S+ - 410-758 MHz [Datasheet](datasheets/ZABP-598-S+.pdf)
